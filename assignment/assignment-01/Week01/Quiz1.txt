@@ -1,7 +1,0 @@
-#Week 1-Quiz 1
-
-# HTML 구조에 대한 문제
-
-# 1 : padding
-# 2 : border
-# 3 : margin
