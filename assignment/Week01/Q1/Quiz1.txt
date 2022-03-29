@@ -2,6 +2,6 @@
 
 # HTML 구조에 대한 문제
 
-# 1 : padding
-# 2 : border
-# 3 : margin
+1 : padding
+2 : border
+3 : margin
