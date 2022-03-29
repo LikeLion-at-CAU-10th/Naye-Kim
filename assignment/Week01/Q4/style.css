@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'YUniverse-B';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_yuniverse@1.0/YUniverse-B.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.card {
+    font-family: 'YUniverse-B';
+    width: 500px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    background-color: #ffe5d9;
+    text-align: center;
+    margin: auto;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #d8e2dc;
+    width: 100px;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-footer {
+    background-color: #ffcad4;
+    display: flex;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+p {
+    text-align: center;
+    margin: auto;
+    margin: 20px 0 20px 0;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.card-footer p {
+    margin: auto;
+}
