@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: snow;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+
+.navbar-title {
+    display: flex;
+    height: 50%;    
+    font-family: 'S-CoreDream-3Light';
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-menu li {
+    margin: 10px;
+    padding: 12px 15px;
+    border: 2.3px solid black;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.layout-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.layout-contents {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    align-items: center;
+    border-bottom: 2px solid black; 
+    font-size: 20px;
+}
+
+.projects-contents {
+    font-size: 16px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    border-bottom: 2px solid black; 
+}
+
+.layout-img {
+    width: 55%;
+    padding: 10px;
+    align-items: center;     
+}
+
+img {
+    border-top-right-radius: 100px;
+    padding: 15px 0 15px 15px;
+    border-left: 5px solid lightgoldenrodyellow;
+    border-bottom: 5px solid lightgoldenrodyellow;
+}
+
+.layout-text {
+    font-size: 20px;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.layout-text .p {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 25%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text h1{
+    border-bottom: 2.5px solid cornflowerblue;
+}
+
+.about-me {
+    display:flex;
+}
+
+.layout-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    font-family: 'S-CoreDream-3Light';
+    font-size: 20px;
+}
+
+img {
+    display: flex;
+    width: 97%;
+    justify-content: space-evenly;
+}
