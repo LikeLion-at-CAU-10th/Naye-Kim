@@ -1,0 +1,8 @@
+.box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 100px;
+  background-color: aliceblue;
+}
